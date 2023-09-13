@@ -4,8 +4,10 @@ let mark = ''
 export default function Square() {
     const [sign,setSign] = useState(true)
     function clickHandler() {
-        setSign(!sign)
-        mark = sign ? 'X' : 'O';
+        mark = sign ? 'X' : 'O'; // here sign should be changed by something which signifies state of the board for 
+        if (sign) {
+            setSign(!sign) 
+        }
     }
     return (
         <>
