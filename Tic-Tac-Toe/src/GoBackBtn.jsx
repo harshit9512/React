@@ -1,6 +1,7 @@
-export default function GoBackBtn ({value}) {
+// eslint-disable-next-line react/prop-types
+export default function GoBackBtn ({value, onClick}) {
     return(
         <>
-            <button className="goBackBtn">{value}</button>
+            <button className="goBackBtn" onClick={onClick}>{value}</button>
         </>)
 }
