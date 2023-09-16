@@ -58,7 +58,7 @@ export default function Board() {
   let DisplayBoard = (
     <>
       {" "}
-      <p className="header">Tic-Tac-Toe</p>
+      <h2 className="header">Tic-Tac-Toe</h2>
       <br />
       <div className="board">
         <Square value={squares[0]} onClick={() => clickHandler(0)} />
