@@ -1,8 +1,9 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: auto;
+  padding: 3rem;
   text-align: center;
+  border: solid;
 }
 
 .square {
@@ -22,4 +23,24 @@
 
 .header {
   font-family: "Verdana";
+}
+
+.goBackBtn {
+  color: white;
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: #069;
+    cursor: pointer;
+}
+
+.board {
+  margin: 30px;
+}
+
+.result {
+  margin-top: 25px;
 }
